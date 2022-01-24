@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+
+
+</head>
+
+<body>
+    <article class="page-header">
+     <header class="header">   <h1> Martins Aquarium </h1> </header>
+    </article>
+
+    <div class="main-content">
+        <div>
+            <article class="fish-collection">
+                <section class="collection-head">
+                   <header class="fish-head"> <h1> Fish Collection </h1> </header>
+                </section>
+                <!-- <article class="fish">
+                    <section class="blue-pic">
+                        <img src="https://m.media-amazon.com/images/I/61GYaF2xP-L._SX355_.jpg" alt="blue-fish"
+                            width="150px" height="200">
+                    </section>
+                    <section class="bio">
+                        <ul>
+                            <li>Species: Blue Bahemith</li>
+                            <li>Length: 9 ft</li>
+                            <li>Name: Rex</li>
+                            <li>Location Harvested: Aruba</li>
+                            <li>Diet: Soylent green</li>
+                        </ul>
+                    </section>
+                </article>
+
+                <article class="fish">
+                    <section class="red-pic">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="red-fish" width="150px" height="200">
+                    </section>
+                    <section class="bio">
+                        <ul>
+                            <li>Species: Red Rocket</li>
+                            <li>length: 129 inches</li>
+                            <li>Name: Tina Fay</li>
+                            <li>Location Harvested: Jamaica</li>
+                            <li>Diet: Little cesears</li>
+                        </ul>
+                    </section>
+                </article> -->
+        </div>
+        <div class="travel">
+            <article class="travel-tips">
+                <Section>
+                  <header class="travel-head">  
+                      <h1>Martins travel Tips</h1>
+                  </header>
+                </Section>
+                <section class="tip-list">
+                    <ul>
+                        <li>“Dont drink the water in Mumbai”</li>
+                        <li>"Tigers bite real hard"</li>
+    
+    
+                    </ul>
+    
+                </section>
+    
+            </article>
+    
+            <article class="locations">
+                <section class="location-head">
+                    <h1> Martins Travel Destinations</h1>
+                </section>
+    
+                <section class="location-list">
+                    <section class="aruba">
+                        <h1 class="aruba-head">ARUBA</h1>
+                        <img src="https://www.visitaruba.com/readBlob.do?id=4120&list=true&cropMode=cropscale&cropX=center&cropY=center&width=372&height=223"
+                            width="200px" height="150px">
+                    </section>
+    
+                    <Section class="jamaica">
+                        <h1 class="jamaica-head">JAMAICA</h1>
+                        <img src="https://cdn.travelpulse.com/images/b8aaedf4-a957-df11-b491-006073e71405/cf5cc01e-1d87-4148-81fa-ebfa8277626f/630x355.jpg"
+                            width="200px" height="150px">
+                    </Section>
+                </section>
+            </article>
+
+        </div>
+        <div>
+            <article class="martins-tips">
+                <section>
+                    <h1 class="tips-head"> Martins Tips </h1>
+                </section>
+                <section class="tip-list">
+                    <ul>
+                        <li>Tank Maintanace</li>
+                        <li>Salinity</li>
+                        <li>Temp</li>
+                    </ul>
+                </section>
+            </article>
+
+        </div>
+    </div>
+
+
+    
+
+<!-- importing my main.js module and designating it as type="module
+    so i can import it." -->
+
+    <script type="module" src="./scripts/main.js"></script>
+
+
+</body>
+
+</html>
+
+
+

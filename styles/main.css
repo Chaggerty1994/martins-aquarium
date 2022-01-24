@@ -1,0 +1,125 @@
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(232, 244, 247), rgb(5, 203, 238));
+   }
+
+.page-header {
+    font-family: "fantasy", "papyrus", serif;
+    text-align: center;
+    font-size: 55px;
+}
+
+.tips-head {
+    text-align: center;
+}
+.martins-tips {
+   
+    justify-content: right ;
+    box-shadow:10px 10px 8px #888888;
+    box-sizing: content-box;
+    width: 150px;
+    height: 300px;
+    border: solid #000000 5px;
+    padding: 5px;
+
+}
+
+
+.fish-collection {
+    
+    display: flex;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid #000000 5px;
+    box-shadow:10px 10px 8px #888888;
+    padding: 10px;
+    width: 400px;
+}
+
+.fish-head {
+    text-align: center;
+}
+.fish__name {
+    display: flex;
+    margin-bottom: 10px;
+    /* box-sizing: content-box;
+    border: solid #000000 5px; */
+    padding: 5px;
+}
+.fish__species {
+    display: flex;
+    margin-bottom: 10px;
+    /* box-sizing: content-box;
+    border: solid #000000 5px; */
+    padding: 5px;
+}
+.fish__length {
+    display: flex;
+    margin-bottom: 10px;
+    /* box-sizing: content-box;
+    border: solid #000000 5px; */
+    padding: 5px;
+}
+.fish__location {
+    display: flex;
+    margin-bottom: 10px;
+    /* box-sizing: content-box;
+    border: solid #000000 5px; */
+    padding: 5px;
+}
+.fish__diet {
+    display: flex;
+    margin-bottom: 10px;
+    /* box-sizing: content-box;
+    border: solid #000000 5px; */
+    padding: 5px;
+}
+
+.travel-head {
+    text-align: center;
+}
+
+.travel {
+    justify-content: space-between;
+    margin-bottom: 5%;
+    box-shadow:10px 10px 8px #888888;
+    border-collapse: separate;
+    border: solid #000000 5px;
+    padding: 10px;
+    width: 400px;
+}
+.travel-tips {
+    
+    box-sizing: content-box;
+    margin-bottom: 10px;
+    border: solid #000000 5px;
+    padding: 5px;
+    width: 375px;
+}
+
+.location-head {
+    text-align: center;
+}
+
+.locations {
+    text-align: center;
+    box-sizing: content-box;
+    border: solid #000000 5px;
+    padding: 5px;
+    width: 375px;
+}
+
